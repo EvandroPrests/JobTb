@@ -1,6 +1,6 @@
 const tasksModel = require('../models/tasksModel');
 
-//Seleciona o 
+
 const getALL = async (_request, response) => {
 
     const tasks = await tasksModel.getAll();
