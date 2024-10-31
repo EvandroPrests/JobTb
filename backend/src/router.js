@@ -2,7 +2,7 @@ const express = require('express');
 
 const router = express.Router();
 
-const tasksController = require('./controllers/tasksController');
+const tasksController = require('./controllers/taskController');
 const tasksMiddleware = require('./middlewares/tasksMiddleware');
 
 //Middlware serve para validar as informações que são inseridas no banco de Dados
@@ -14,4 +14,4 @@ tasksMiddleware.validateFieldTitle,
 tasksMiddleware.validateFieldStatus, 
 tasksController.updateTask);   
 
-module.exports = router;
+module.exports = router; 

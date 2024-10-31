@@ -1,4 +1,6 @@
 
+// Depois vou ter que fazer as configuracoes de acordo com o que eu preciso no meu site
+
 const connection = require('./connection');
 
 //Função para consulta do Banco de dados
